@@ -11,20 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
-  /**
-   * @typedef {object} User
-   * @property {string} id
-   * @property {string} name
-   * @property {string[]} permissions
-   * @property {string} [imageURL]
-   * @property {string} year
-   * @property {string} department
-   */
 
-  /**
-   * Tracks the current user as per authentication state
-   * @type {[User, React.Dispatch<React.SetStateAction<User>>]}
-   */
   const [user, setUser] = useState({
     id: "123",
     name: "bob pop",
