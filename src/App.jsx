@@ -19,7 +19,8 @@ function App() {
     department: "idk man",
     year: "Eighth",
   });
-  
+
+  //
   const handleLogout = () => setUser(null);
 
   return (
