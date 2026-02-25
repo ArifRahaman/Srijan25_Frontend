@@ -1,14 +1,14 @@
 # Srijan'25 Frontend
 
-Srijan'25 Frontend is a web application developed to offer an engaging user experience for the Srijan event hosted by Jadavpur University. The platform enables users to register for events, shop for merchandise, and access personalized dashboards.
+Srijan'25 Frontend is a web application designed to enhance user interaction and engagement for the Srijan event hosted by Jadavpur University. The platform allows users to register for events, purchase merchandise, and manage their profiles via a personalized dashboard.
 
 ## Features
 
-- **Landing Page**: A welcoming page highlighting the event details and features.
-- **Protected Routes**: Certain pages are accessible only when the user is authenticated.
-- **Event Registration**: Users can register for a variety of events.
-- **Merchandise Page**: Users can browse and purchase official event merchandise.
-- **User Dashboard**: A personalized dashboard where users can manage their event participation and settings.
+- **Landing Page**: An introductory page highlighting the event details and key features.
+- **Protected Routes**: Certain pages require user authentication to access.
+- **Event Registration**: Users can register for various events.
+- **Merchandise Page**: Users can explore and order official event merchandise.
+- **User Dashboard**: A personalized dashboard for managing event participation and user settings.
 
 ## Tech Stack
 
@@ -39,12 +39,12 @@ Srijan'25 Frontend is a web application developed to offer an engaging user expe
 
 ## Usage Guide
 
-1. **Landing Page**: Navigate to the root URL to access the main landing page.
+1. **Landing Page**: Visit the root URL to access the main landing page.
 2. **Event Registration**: Navigate to `/events` to view and register for available events.
 3. **Merchandise Page**: Visit `/merchandise` to browse and order event merchandise.
 4. **Dashboard**: Access `/dashboard` to view your personalized user dashboard. This route is protected and requires authentication.
 
-Example of navigating to the Dashboard:
+Example route for the Dashboard:
 ```jsx
 <Route path="/dashboard" element={<DashboardPage user={user} logout={handleLogout} />} />
 ```
@@ -70,4 +70,4 @@ No external API endpoints are referenced or utilized in this project.
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-> 🤖 *Last automated update: 2026-02-25 15:16:40*
+> 🤖 *Last automated update: 2026-02-25 15:24:19*
