@@ -1,21 +1,21 @@
 # Srijan'25 Frontend
 
-Srijan'25 Frontend is a web application designed to enhance user experience for the Srijan event hosted by Jadavpur University. The application provides users with features such as event registration, merchandise shopping, and user dashboards.
+Srijan'25 Frontend is a web application developed to offer an engaging user experience for the Srijan event hosted by Jadavpur University. The platform enables users to register for events, shop for merchandise, and access personalized dashboards.
 
 ## Features
 
-- **Landing Page**: Welcome page showcasing the event highlights.
-- **Protected Routes**: Access to certain pages is restricted based on user authentication.
-- **Event Registration**: Users can register for various events.
-- **Merchandise Page**: Browse and purchase event merchandise.
-- **User Dashboard**: Personalized dashboard for users to manage their event participation and other settings.
+- **Landing Page**: A welcoming page highlighting the event details and features.
+- **Protected Routes**: Certain pages are accessible only when the user is authenticated.
+- **Event Registration**: Users can register for a variety of events.
+- **Merchandise Page**: Users can browse and purchase official event merchandise.
+- **User Dashboard**: A personalized dashboard where users can manage their event participation and settings.
 
 ## Tech Stack
 
-- **Frontend**: React, Tailwind CSS
+- **Frontend**: React
+- **Styling**: Tailwind CSS, CSS Animations
 - **Routing**: React Router
 - **State Management**: React Hooks
-- **Styling**: CSS Animations, Tailwind CSS
 - **Build Tool**: Vite
 - **Utilities**: clsx, tailwind-merge
 
@@ -70,4 +70,4 @@ No external API endpoints are referenced or utilized in this project.
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-> 🤖 *Last automated update: 2026-02-25 15:09:12*
+> 🤖 *Last automated update: 2026-02-25 15:16:40*
