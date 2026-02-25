@@ -1,1 +1,73 @@
+# Srijan'25 Frontend
 
+Srijan'25 Frontend is a web application designed to enhance user experience for the Srijan event hosted by Jadavpur University. The application provides users with features such as event registration, merchandise shopping, and user dashboards.
+
+## Features
+
+- **Landing Page**: Welcome page showcasing the event highlights.
+- **Protected Routes**: Access to certain pages is restricted based on user authentication.
+- **Event Registration**: Users can register for various events.
+- **Merchandise Page**: Browse and purchase event merchandise.
+- **User Dashboard**: Personalized dashboard for users to manage their event participation and other settings.
+
+## Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Routing**: React Router
+- **State Management**: React Hooks
+- **Styling**: CSS Animations, Tailwind CSS
+- **Build Tool**: Vite
+- **Utilities**: clsx, tailwind-merge
+
+## Installation Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ArifRahaman/Srijan25_Frontend.git
+   cd Srijan25_Frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Usage Guide
+
+1. **Landing Page**: Navigate to the root URL to access the main landing page.
+2. **Event Registration**: Navigate to `/events` to view and register for available events.
+3. **Merchandise Page**: Visit `/merchandise` to browse and order event merchandise.
+4. **Dashboard**: Access `/dashboard` to view your personalized user dashboard. This route is protected and requires authentication.
+
+Example of navigating to the Dashboard:
+```jsx
+<Route path="/dashboard" element={<DashboardPage user={user} logout={handleLogout} />} />
+```
+
+## Environment Variables
+
+No specific environment variables are configured in this project.
+
+## API Reference
+
+No external API endpoints are referenced or utilized in this project.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Add new feature"`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+> 🤖 *Last automated update: 2026-02-25 15:09:12*
