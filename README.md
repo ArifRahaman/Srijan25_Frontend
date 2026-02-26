@@ -6,7 +6,7 @@ Welcome to the frontend application for Srijan'25, an annual cultural festival o
 
 - **Landing Page**: Initial page of the application showcasing the event details.
 - **Event Registration**: Register for events with options for team member management.
-- **Merchandise Page**: Browse and purchase festival merchandise with customizable options.
+- **Merchandise Page**: Browse and purchase festival merchandise.
 - **Dashboard**: Access protected routes and user-specific information.
 - **Responsive Navbar and Footer**: Navigate easily across pages with a consistent interface.
 - **Animations**: Dynamic animations for mascot and hero text elements.
@@ -18,6 +18,8 @@ Welcome to the frontend application for Srijan'25, an annual cultural festival o
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **MUI**: Provides React components for faster and easier web development.
 - **Vite**: Next generation frontend tooling for development and build processes.
+- **ESLint**: Linting utility for JavaScript and JSX code.
+- **Prettier**: Code formatter to maintain consistent style.
 
 ## Installation Instructions
 
@@ -59,4 +61,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-02-27 00:37:10*
+> 🤖 *Last automated update: 2026-02-27 00:42:54*
