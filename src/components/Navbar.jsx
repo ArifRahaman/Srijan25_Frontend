@@ -47,9 +47,6 @@ function Navbar() {
           <a href='/' className='text-left border-white/30 border-b w-full py-1'>Events</a>
           <a href='/' className='text-left border-white/30 border-b w-full py-1'>Notifications</a>
           <a href='/' className='text-left border-white/30 border-b w-full py-1'>Campus Ambassadors</a>
-          <a href='/' className='text-left border-white/30 border-b w-full py-1'>Workshops</a>
-          <a href='/' className='text-left border-white/30 border-b w-full py-1'>Merchandise</a>
-          <a href='/' className='text-left border-white/30 border-b w-full py-1'>Dashboard</a>
         </div>
       </div>
     </nav>
