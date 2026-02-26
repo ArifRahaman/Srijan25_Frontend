@@ -44,26 +44,19 @@ Welcome to the frontend application for Srijan'25, an annual cultural festival o
 
 ## Environment Variables
 
-No specific environment variables are defined in this project's metadata.
+No specific environment variables are required for this project.
 
 ## API Reference
 
-The application does not include server-side API endpoints. It focuses on client-side routing for different pages:
-- `/dashboard`: Protected route requiring user authentication.
-- `/merchandise`: Route displaying available merchandise.
-- `/events`: Route showcasing event details.
-- `/eventregistration`: Route for event registration.
+This project does not expose any external API endpoints.
 
 ## Contributing
 
-We welcome contributions from the community. Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Submit a pull request with a clear description of your changes.
+Contributions are welcome! Please feel free to submit a pull request or open an issue for discussion.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-02-27 00:22:16*
+> 🤖 *Last automated update: 2026-02-27 00:37:10*
